@@ -1,0 +1,83 @@
+{
+	"logs": [{
+			"uuid": "bc3a89a1-234c-4821-95a1-80515d3327da",
+			"requestedBy": "alice.cook@complii.tech",
+			"requestedAt": "2020-08-21T02:29:28+00:00",
+			"request": {
+				"companyUuid": "5b57835d-1b15-4f1a-a47a-3a9595c89b46",
+				"groupId": "Backend",
+				"objects": [{
+						"name": "test_schema.test_user_pii.uuid",
+						"type": "FIELD",
+						"state": "ALLOWED"
+					},
+					{
+						"name": "test_schema.test_user_pii.company_uuid",
+						"type": "FIELD",
+						"state": "ALLOWED"
+					},
+					{
+						"name": "test_schema.test_user_pii.first_name",
+						"type": "FIELD",
+						"state": "DENIED"
+					},
+					{
+						"name": "test_schema.test_user_pii.last_name",
+						"type": "FIELD",
+						"state": "DENIED"
+					},
+					{
+						"name": "test_schema.test_user_pii.email",
+						"type": "FIELD",
+						"state": "DENIED"
+					},
+					{
+						"name": "test_schema.test_user_pii.password",
+						"type": "FIELD",
+						"state": "ALLOWED"
+					}
+				]
+			}
+		},
+		{
+			"uuid": "322a2a77-ee4d-484e-95ea-3c80b85f3a66",
+			"requestedBy": "alice.cook@complii.tech",
+			"requestedAt": "2020-08-21T02:29:28+00:00",
+			"request": {
+				"companyUuid": "5b57835d-1b15-4f1a-a47a-3a9595c89b46",
+				"groupId": "Backend",
+				"objects": [{
+						"name": "test_schema.test_user_pii.uuid",
+						"type": "FIELD",
+						"state": "ALLOWED"
+					},
+					{
+						"name": "test_schema.test_user_pii.company_uuid",
+						"type": "FIELD",
+						"state": "ALLOWED"
+					},
+					{
+						"name": "test_schema.test_user_pii.first_name",
+						"type": "FIELD",
+						"state": "DENIED"
+					},
+					{
+						"name": "test_schema.test_user_pii.last_name",
+						"type": "FIELD",
+						"state": "DENIED"
+					},
+					{
+						"name": "test_schema.test_user_pii.email",
+						"type": "FIELD",
+						"state": "DENIED"
+					},
+					{
+						"name": "test_schema.test_user_pii.password",
+						"type": "FIELD",
+						"state": "ALLOWED"
+					}
+				]
+			}
+		}
+	]
+}
